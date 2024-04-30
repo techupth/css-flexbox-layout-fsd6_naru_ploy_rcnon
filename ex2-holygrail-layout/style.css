@@ -1,1 +1,59 @@
-/* Start coding here */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  background-color: #008080;
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  border: whitesmoke 2px solid;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+  flex: 8;
+}
+
+nav {
+  background-color: #ffa500;
+  border: whitesmoke 2px solid;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav {
+  flex-basis: 25%;
+}
+
+.content {
+  flex-basis: 50%;
+}
+
+.ad {
+  flex-basis: 25%;
+}
+
+footer {
+  background-color: #f0e68c;
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  border: whitesmoke 2px solid;
+}
