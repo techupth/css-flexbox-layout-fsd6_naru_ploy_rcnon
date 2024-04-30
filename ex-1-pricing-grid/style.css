@@ -1,1 +1,83 @@
-/* Start coding here */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.animalBlog {
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-image: linear-gradient(90deg, #e76faf, #3793e5);
+}
+
+.blog {
+  width: 12vw;
+  height: fit-content;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  background-color: hsla(0, 50%, 100%, 0.3);
+  border-radius: 2%;
+}
+
+.catBox {
+  top: 50%;
+  left: 35%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+}
+
+.dogBox {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+}
+
+.fishBox {
+  top: 50%;
+  left: 65%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+}
+
+h1 {
+  color: white;
+  font-family: sans-serif;
+  padding-top: 15px;
+  text-shadow: 2px 2px #737373;
+}
+
+p {
+  text-align: center;
+  font-size: 0.8rem;
+  color: black;
+  font-weight: bolder;
+  font-family: sans-serif;
+  padding: 17px;
+}
+
+.p1 {
+  border-bottom: 1px solid rgb(160, 160, 160);
+}
+
+.bigFont {
+  font-size: 2rem;
+  font-family: serif;
+}
+
+.paragraph {
+  height: fit-content;
+}
+
+button {
+  width: 80%;
+  height: 35px;
+  background-color: yellow;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 2px;
+  border: none;
+}
