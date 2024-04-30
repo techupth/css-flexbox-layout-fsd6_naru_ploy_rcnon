@@ -1,1 +1,63 @@
-/* Start coding here */
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  border: 0px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-image: linear-gradient(
+    90deg,
+    hsl(330, 100%, 70%),
+    hsl(220, 100%, 70%)
+  );
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+.item-1,
+.item-2,
+.item-3 {
+  width: 200px;
+  border-radius: 3px;
+  background-color: rgba(255, 255, 255, 0.3);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+.petlist {
+  font-size: 2rem;
+  color: whitesmoke;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+p {
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 200;
+  padding: 5px;
+}
+button {
+  border-radius: 3px;
+  height: 40px;
+  width: 150px;
+  background-color: yellow;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  font-weight: 100;
+}
+.borderbottom {
+  width: 100%;
+  border-bottom: solid 1px rgba(0, 0, 0, 0.1);
+}
+.cost {
+  font-size: 3rem;
+  font-weight: 300;
+  padding: 7px;
+}
